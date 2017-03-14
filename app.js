@@ -4,7 +4,7 @@ var zookeeper = require('node-zookeeper-client');
 var httpProxy = require('http-proxy');
 
 var PORT = 1234;
-var CONNECTION_STRING = '192.168.6.219:2181';
+var CONNECTION_STRING = '192.168.118.10:2181';
 var REGISTRY_ROOT = '/registry';
 // 链接ZooKeeper
 var zk = zookeeper.createClient(CONNECTION_STRING);
